@@ -8,7 +8,7 @@
 class ConstantGuesser: public bullpgia::Guesser {
 		string myConstantString;
 	public:
-		explicit ConstantGuesser(const string& constantString) { myConstantString = constantString; }
+        ConstantGuesser(const string& constantString) { myConstantString = constantString; }
 		string guess() override {
 			return myConstantString;
 		}
