@@ -15,7 +15,7 @@ namespace bullpgia {
         virtual string guess() = 0;
         virtual void startNewGame(uint length){};
         virtual void learn(string l){};
-        uint length = 0;
+        uint length;
     };
 }
 #endif //EX4_GUESSER_HPP
