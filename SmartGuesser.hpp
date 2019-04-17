@@ -1,7 +1,3 @@
-//
-// Created by moshe on 16/04/2019.
-//
-
 #ifndef EX4_SMARTGUESSER_HPP
 #define EX4_SMARTGUESSER_HPP
 
