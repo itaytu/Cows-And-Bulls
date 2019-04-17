@@ -9,3 +9,19 @@ std::string RandomGuesser::guess() {
 	}
 	return r;
 }
+
+void RandomGuesser::startNewGame(uint length) {
+
+}
+
+void RandomGuesser::learn(string l) {
+
+}
+
+void ConstantGuesser::startNewGame(uint length) {
+
+}
+
+void ConstantGuesser::learn(string l) {
+
+}

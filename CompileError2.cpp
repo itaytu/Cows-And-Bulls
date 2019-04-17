@@ -2,7 +2,8 @@
  * A program that should not compile.
  * @author Erel Segal-Halevi
  * @since  2019-04
- */
+ *//*
+
 
 
 #include <iostream>
@@ -16,3 +17,4 @@ using namespace bullpgia;
 int main() {
 	Guesser g;
 }
+*/
