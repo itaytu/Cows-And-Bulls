@@ -7,12 +7,13 @@ include_directories(.)
 
 add_executable(Ex4
         Demo.cpp
-        DummyChoosers.cpp
-        DummyGuessers.cpp
-        play.cpp
-        Chooser.cpp
-        Guesser.cpp
-        SmartGuesser.cpp
-        calculate.cpp
+        DummyChoosers.cpp DummyChoosers.hpp
+        DummyGuessers.cpp DummyGuessers.hpp
+        play.cpp play.hpp
+        Chooser.cpp Chooser.hpp
+        Guesser.cpp Guesser.hpp
+        SmartGuesser.cpp SmartGuesser.hpp
+        calculate.cpp calculate.hpp
         CompileError1.cpp
-        CompileError2.cpp)
+        CompileError2.cpp
+        Test.cpp)
