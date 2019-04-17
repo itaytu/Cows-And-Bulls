@@ -9,7 +9,7 @@
 using namespace std;
 
 namespace bullpgia{
-    string calculateBullAndPgia(string ch,string guess);
+    string calculateBullAndPgia(string choise,string guess);
 }
 
 

@@ -14,14 +14,8 @@ void RandomGuesser::startNewGame(uint length) {
     this->length = length;
 }
 
-void RandomGuesser::learn(string l) {
-
-}
-
 void ConstantGuesser::startNewGame(uint length) {
     this->length = length;
 }
 
-void ConstantGuesser::learn(string l) {
 
-}
