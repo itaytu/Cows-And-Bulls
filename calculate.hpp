@@ -2,8 +2,6 @@
 #define EX4_CALCULATE_HPP
 
 #include "iostream"
-#include "Chooser.hpp"
-#include "Guesser.hpp"
 
 using namespace std;
 

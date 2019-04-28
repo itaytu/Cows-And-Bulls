@@ -1,5 +1,6 @@
 #include "calculate.hpp"
 #include "iostream"
+
 using namespace std;
 
 string bullpgia::calculateBullAndPgia(string choice, string guess) {

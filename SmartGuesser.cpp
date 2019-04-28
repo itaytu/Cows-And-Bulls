@@ -1,4 +1,5 @@
 #include "SmartGuesser.hpp"
+using namespace bullpgia;
 
 void SmartGuesser::startNewGame(uint length) {
 

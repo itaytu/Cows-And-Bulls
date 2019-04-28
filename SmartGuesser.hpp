@@ -4,11 +4,14 @@
 #include "Guesser.hpp"
 #include "iostream"
 using namespace std;
-class SmartGuesser : public bullpgia::Guesser{
+namespace bullpgia {
+    class SmartGuesser : public bullpgia::Guesser {
 
-     string guess();
-     void startNewGame(uint length);
-     void learn(string l);
-};
+        string guess() override;
 
+        void startNewGame(uint length) override;
+
+        void learn(string l) override;
+    };
+}
 #endif //EX4_SMARTGUESSER_HPP
