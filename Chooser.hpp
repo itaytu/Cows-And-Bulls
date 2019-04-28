@@ -1,3 +1,4 @@
+#pragma once
 #ifndef EX4_CHOOSER_HPP
 #define EX4_CHOOSER_HPP
 

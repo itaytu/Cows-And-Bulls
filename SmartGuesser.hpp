@@ -2,8 +2,8 @@
 #define EX4_SMARTGUESSER_HPP
 
 #include "Guesser.hpp"
-#include "iostream"
-using namespace std;
+#include "string"
+#include "calculate.hpp"
 namespace bullpgia {
     class SmartGuesser : public bullpgia::Guesser {
 

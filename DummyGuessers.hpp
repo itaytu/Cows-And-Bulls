@@ -2,6 +2,7 @@
 #include "Guesser.hpp"
 
 
+
 /**
  * ConstantGuesser is a guesser that always guesses the same string. 
  */
@@ -13,7 +14,7 @@ class ConstantGuesser: public bullpgia::Guesser {
 			return myConstantString;
 		}
 		void startNewGame(uint length) override;
-		void learn(string l) override {};
+		void learn(string l){}
 };
 
 /**
@@ -22,5 +23,5 @@ class ConstantGuesser: public bullpgia::Guesser {
 class RandomGuesser: public bullpgia::Guesser {
 	string guess() override;
 	void startNewGame(uint length) override;
-    void learn(string l) override {};
+    void learn(string l){}
 };

@@ -1,6 +1,7 @@
 #pragma once
 #include "Chooser.hpp"
 
+
 /**
  * ConstantChooser is a chooser that always chooses the same string. 
  */

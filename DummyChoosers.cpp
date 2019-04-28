@@ -1,5 +1,6 @@
 #include "DummyChoosers.hpp"
 #include <stdlib.h>
+#include <string>
 
 std::string RandomChooser::choose(uint length) {
 	std::string r="";

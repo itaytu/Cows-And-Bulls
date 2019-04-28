@@ -1,7 +1,5 @@
-#ifndef EX4_CALCULATE_HPP
-#define EX4_CALCULATE_HPP
 
-#include "iostream"
+#include <string>
 
 using namespace std;
 
@@ -10,5 +8,3 @@ namespace bullpgia{
 }
 
 
-
-#endif //EX4_CALCULATE_HPP

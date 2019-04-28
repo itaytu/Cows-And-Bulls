@@ -1,6 +1,7 @@
+#pragma once
 #ifndef EX4_GUESSER_HPP
 #define EX4_GUESSER_HPP
-
+#include "calculate.hpp"
 #include "iostream"
 
 using namespace std;
