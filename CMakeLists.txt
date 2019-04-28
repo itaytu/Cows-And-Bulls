@@ -10,10 +10,11 @@ add_executable(Ex4
         DummyChoosers.cpp DummyChoosers.hpp
         DummyGuessers.cpp DummyGuessers.hpp
         play.cpp play.hpp
-        Chooser.cpp Chooser.hpp
-        Guesser.cpp Guesser.hpp
+        Chooser.hpp
+        Guesser.hpp
         SmartGuesser.cpp SmartGuesser.hpp
         calculate.cpp calculate.hpp
         CompileError1.cpp
         CompileError2.cpp
-        Test.cpp)
+        Test.cpp
+      )

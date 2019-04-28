@@ -17,5 +17,3 @@ void RandomGuesser::startNewGame(uint length) {
 void ConstantGuesser::startNewGame(uint length) {
     this->length = length;
 }
-
-
