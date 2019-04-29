@@ -46,6 +46,7 @@ int main() {
 		;
         testcase.setname("My Test-Calculate bull and pgia")
         .CHECK_OUTPUT(calculateBullAndPgia("1111","1234"), "1,0")
+        .CHECK_OUTPUT(calculateBullAndPgia("1111","1111"), "4,0")
         .CHECK_OUTPUT(calculateBullAndPgia("1234","1324"), "2,2")
         .CHECK_OUTPUT(calculateBullAndPgia("12345","15342"), "3,2")
         .CHECK_OUTPUT(calculateBullAndPgia("1423","1234"), "1,3")
@@ -54,6 +55,8 @@ int main() {
         .CHECK_OUTPUT(calculateBullAndPgia("12","21"), "0,2")
         .CHECK_OUTPUT(calculateBullAndPgia("1234567","1234568"), "6,0")
         .CHECK_OUTPUT(calculateBullAndPgia("12345","43215"), "1,4")
+        .CHECK_OUTPUT(calculateBullAndPgia("2214","3721"), "0,2")
+        .CHECK_OUTPUT(calculateBullAndPgia("3721","2214"), "0,2")
         ;
         testcase.setname("My Test")
         .CHECK_EQUAL(play(myc5678,myg5678 , 4, 100),1)
