@@ -19,8 +19,13 @@ namespace bullpgia {
             }
         }
 
+        string tmpChoise = newChoice;
         for (int i = 0; i < newChoice.length(); ++i) {
-            if (newChoice.find(newGuess[i]) != string::npos) pgia++;
+            if (tmpChoise.find(newGuess[i]) != string::npos) {
+                pgia++;
+                int index = tmpChoise.find(newGuess[i]);
+                tmpChoise.erase(index, 1);
+            }
         }
 
         result = to_string(bull) + ',' + to_string(pgia);
