@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Ex4
-
+        Demo.cpp
         DummyChoosers.cpp DummyChoosers.hpp
         DummyGuessers.cpp DummyGuessers.hpp
         play.cpp play.hpp
