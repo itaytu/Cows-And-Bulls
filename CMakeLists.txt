@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Ex4
-
+        Demo.cpp
         DummyChoosers.cpp DummyChoosers.hpp
         DummyGuessers.cpp DummyGuessers.hpp
         play.cpp play.hpp
@@ -16,5 +16,5 @@ add_executable(Ex4
         calculate.cpp calculate.hpp
         CompileError1.cpp
         CompileError2.cpp
-    Test.cpp
+        Test.cpp
       )
