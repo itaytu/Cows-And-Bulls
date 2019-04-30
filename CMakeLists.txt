@@ -16,5 +16,5 @@ add_executable(Ex4
         calculate.cpp calculate.hpp
         CompileError1.cpp
         CompileError2.cpp
-    Test.cpp
+        Test.cpp
       )

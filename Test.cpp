@@ -57,6 +57,7 @@ int main() {
         .CHECK_OUTPUT(calculateBullAndPgia("12345","43215"), "1,4")
         .CHECK_OUTPUT(calculateBullAndPgia("2214","3721"), "0,2")
         .CHECK_OUTPUT(calculateBullAndPgia("3721","2214"), "0,2")
+        .CHECK_OUTPUT(calculateBullAndPgia("5222","2552"), "1,2")
         ;
         testcase.setname("My Test")
         .CHECK_EQUAL(play(myc5678,myg5678 , 4, 100),1)
@@ -71,6 +72,18 @@ int main() {
 		for (uint i=0; i<100; ++i) {
 			testcase.CHECK_EQUAL(play(randy, smarty, 4, 100)<=100, true);  // smarty should always win in at most 10 turns!
 		}
+        //Length less than 4
+        int wordLength;
+        int maxGuesses;
+        for (uint i = 0; i < 100; ++i) {
+            testcase.CHECK_EQUAL(play(randy, smarty, wordLength, 100)<=maxGuesses, true);
+        }
+        //Length more than 4
+        int wordLength2;
+        int maxGuesses2;
+        for (uint i = 0; i < 100; ++i) {
+            testcase.CHECK_EQUAL(play(randy, smarty, wordLength2, 100)<=maxGuesses2, true);
+        }
     grade = testcase.grade();
 	} else {
 		testcase.print_signal(signal);
