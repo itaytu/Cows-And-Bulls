@@ -28,20 +28,24 @@ void SmartGuesser::learn(string l) {
 }
 
 void SmartGuesser::buildSet(uint length) {
+
+    auto it = myNumbers.begin();
     string tmp;
     switch (length) {
         case 0 : return;
         case 1 : {
             for (int i = 0; i < 10; ++i) {
                 tmp = to_string(i);
-                myNumbers.insert(tmp);
+                myNumbers.insert(it,tmp);
+                it++;
             } break;
         }
         case 2 : {
             for (int i = 0; i < 10; ++i) {
                 for (int j = 0; j < 10; ++j) {
                     tmp = to_string(i) + to_string(j);
-                    myNumbers.insert(tmp);
+                    myNumbers.insert(it,tmp);
+                    it++;
                 }
             } break;
         }
@@ -50,7 +54,8 @@ void SmartGuesser::buildSet(uint length) {
                 for (int j = 0; j < 10; ++j) {
                     for (int k = 0; k < 10; ++k) {
                         tmp = to_string(i) + to_string(j) + to_string(k);
-                        myNumbers.insert(tmp);
+                        myNumbers.insert(it,tmp);
+                        it++;
                     }
                 }
             } break;
@@ -61,7 +66,8 @@ void SmartGuesser::buildSet(uint length) {
                     for (int k = 0; k < 10; ++k) {
                         for (int l = 0; l < 10; ++l) {
                             string number = to_string(i) + to_string(j) + to_string(k) + to_string(l);
-                            myNumbers.insert(number);
+                            myNumbers.insert(it,number);
+                            it++;
                         }
                     }
                 }

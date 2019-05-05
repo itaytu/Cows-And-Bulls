@@ -4,7 +4,7 @@
 #include "Guesser.hpp"
 #include "string"
 #include "calculate.hpp"
-#include <set>
+#include <list>
 #include <iterator>
 
 namespace bullpgia {
@@ -16,7 +16,7 @@ namespace bullpgia {
 
         void learn(string l) override;
 
-        set<string> myNumbers;
+        list<string> myNumbers;
 
         void buildSet(uint length);
     };
