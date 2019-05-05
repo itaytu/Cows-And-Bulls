@@ -3,8 +3,8 @@ using namespace bullpgia;
 
 void SmartGuesser::startNewGame(uint length) {
     this->length = length;
-    if(length<5 && length>=0) buildSet(length);
-    //TODO:
+    if(length<5) buildSet(length);
+    //TODO: length longer than 4
     else {};
 }
 

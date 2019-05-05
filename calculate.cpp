@@ -3,6 +3,7 @@
 
 using namespace std;
 using namespace bullpgia;
+
 namespace bullpgia {
     string calculateBullAndPgia(string choice, string guess) {
         int bull = countAndRemoveBull(choice, guess);
