@@ -1,2 +1,2 @@
-# CPP-Ex4
-<p>נכתב ע"י משה אלחדד איתי טוסון ושגיא אושרי</p>
+# Cows and Bulls
+  Simple game of Cows and Bulls.
